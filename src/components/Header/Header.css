@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #006eff;
+    margin-left: 20px;
+}
+
+.left > img{
+    margin-left: 20px;
+    width: 90px;
+    height: fit-content;
+}
+
+.right{
+    margin-right: 20px;
+}
+
+.log_out_btn{
+    margin-right: 10px;
+}
+
+.right > button{
+    background-color: #2c73f8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.right > button:hover{
+    background-color: #4280f5;
+}
+
+.search{
+    display: flex;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    font-size: large;
+}
+
+input:focus{
+    outline: none !important;
+}
+
+.search > button{
+    height: 37px;
+    width: 100px;
+}
