@@ -1,0 +1,12 @@
+.Cart{
+    background-color: whitesmoke;
+}
+
+.Page__header{
+    color: #006eff;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 267px;
+    font-size: 35px;
+}
+

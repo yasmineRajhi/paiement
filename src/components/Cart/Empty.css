@@ -1,0 +1,47 @@
+.Cart{
+    background-color: whitesmoke;
+}
+
+.Page__header{
+    color: #006eff;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 267px;
+    font-size: 35px;
+}
+
+.cart__icon{
+    font-size: 250px;
+    color: #9fbff0;
+    text-shadow: 1px 1px #9fbff0;
+}
+
+.Page__warn{
+    margin-top: 20px;
+}
+
+.Page__warn > h3{
+    color: red;
+    font-size: 37px;
+}
+
+.Page__warn > p{
+    font-size: 20px;
+    color: #9fbff0;
+}
+
+.Cart .shop{
+    background-color: #6fa5f7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button:focus{
+    outline: none !important;
+}
